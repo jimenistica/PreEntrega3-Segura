@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER Y NAV*/
+header{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 25px;
+    margin: 0;
+}
+nav img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link a{
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #808080ff;
+}
+.subnav, .subnav-mini{
+    background-color: #3AA6B9;
+    border: none;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    right: 1px;  
+
+}
+.subnav li{
+    padding: 0px 15px;
+}
+.subnav a, .subnav-mini a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-rosa a{
+    color: #FF9EAA;
+}
+.btn-rosa a:hover{
+    color: #808080ff;
+    
+}
+
+
+/*SECCIONES PRINCIPALES*/
+.section-principal{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: white;
+}
+.section-principal div{
+    padding-left: 12vh;
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+.img-index{
+    background-image: url('../assets/images/fotos/mujer-dos-perros-jugando-parque.jpg');
+}
+.img-contact{
+    background-image: url('..//assets/images/fotos/lindo-perrito-haciendose-pasar-persona-negocios.jpg');
+}
+.img-productos{
+    background-image: url('../assets/images/fotos/primer-plano-jack-russell-terrier.jpg');
+}
+.img-nosotros{
+    background-image: url('../assets/images/fotos/boxer-aleman-blanco-unico.jpg');
+}
+.img-descanso{
+    background-image: url('../assets/images/fotos/closeup-adorable-bulldog-sleeping-pillows-garden-sunny-day.jpg');
+}
+.img-viajes{
+    background-image: url('../assets/images/fotos/perro-lindo-maletero-coche.jpg');
+}
+.img-paseos{
+    background-image: url('../assets/images/fotos/vista-lindo-perro-disfrutando-tiempo-naturaleza-parque.jpg') ;
+}
+.img-higiene{
+    background-image: url('../assets/images/fotos/lavar-perro-mascota-casa.jpg');
+}
+.img-comederos{
+    background-image: url('../assets/images/fotos/hermoso-perro-dalmata-comiendo.jpg');
+}
+.img-juguetes{
+    background-image: url('../assets/images/fotos/perro-lindo-feliz-masticando-palo.jpg');
+}
+.boton-principal, input[type="search"], .parrafo{
+    background-color:#3AA6B9 ;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button[type="submit"]{
+    background-color:#3AA6B9 ;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.parrafo{
+    font-weight: lighter;
+    margin: 10px;
+}
+input[type="search"]{
+    padding: 10 0;
+    width: 250px;
+   
+}
+input[type="search"]::placeholder{
+    color: white;
+    text-align: center;
+}
+
+button[type=submit] img{
+    height: 15px;
+
+}
+h2{
+    color: #3AA6B9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.img-carrusel{
+    height: 500px;
+}
+.los-nuestros{
+    height: 500px;
+}
+
+/*CONTACTO*/
+.contact-section{
+    margin: 20px; 
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #808080ff ;
+}
+.contact-section img{
+    width: 20%;
+    object-fit: cover;
+   }
+#cuestionario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    border: 1px solid #3AA6B9;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
+
+#cuestionario div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.contact-section form input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-block: 5px ;
+    padding-inline: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+form select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding: 2px;
+    border-color: gray;
+    border-radius: 5px;
+    color: #808080ff;
+}
+.contact-section form textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+/*PRODUCTOS*/
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid #3AA6B9;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 15px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.card img{
+    width: 180px;
+}
+.card h4{
+    color: #3AA6B9;
+}
+.card p{
+    border: 1px solid #3AA6B9;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    padding: 3px;
+}
+.btn-secundario{
+    margin-top: 8px;
+    padding: 5px;
+    background-color: #3AA6B9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.card a:hover{
+    border: 1px solid #808080ff;
+}
+
+.info-extra{
+    display: flex;
+    margin: 30px;
+}
+
+.celda{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-left: 1px solid #808080ff;
+    border-right: 1px solid #808080ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em
+}
+.celda img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+/*Página PRODUCTO*/
+.product-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    border: 1px solid #3AA6B9;
+    border-radius: 5px;
+    margin: 50px 20px 20px 20px;
+}
+.product-img{
+    margin: 10px;
+}
+.product-img img{
+    max-width: 250px;
+    height: auto;
+}
+.img-previs{
+    display: flex;
+    justify-content: space-around;
+}
+.img-previs img{
+    max-width: 100px;
+    height: auto;
+}
+.product-info{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+.product-info div {
+    display: flex;
+    align-items: center; 
+}
+.product-info img {
+   margin-left: 50px;
+}
+.product-info form input[type="number"]{
+    width: 35px;
+    color: #808080ff;
+}
+.product-info a{
+    color: black;
+}
+.product-info a:hover{
+    color: #888;
+    cursor: pointer;
+}
+/*VENTANA MEDIOS DE PAGO*/
+.vetana-emergente{
+    display: none ;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.vetana-emergente__content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+.vetana-emergente__content__text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: larger;
+
+}
+.medios-pago__content__text p{
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.close  {
+    color: #aaa;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*FOOTER*/
+/*footer section{
+    display: flex;
+    justify-content: space-around;
+    padding:5px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    background-color: #FF9EAA;
+    color: white;
+}
+footer section div{
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+}
+footer ul{
+    list-style: none;
+}
+
+footer img{
+    display: block;
+    margin: 1px auto;
+}
+*/
+.mapa{
+    width: 150px;
+}
+
+.rosa{
+    background-color: #FF9EAA;
+}
+.iconos{
+    display: inline;
+    height: 15px;
+}
+footer .nav-item, h5{
+    color: white;
+    text-decoration: none;
+}
+footer .nav-link {
+    color: white !important;
+}
+footer .nav-link:hover{
+    color: #808080ff !important;
+}
+
+.carousel-indicators{
+    list-style-type: none;
+}
+.container-fluid{
+    margin-top: 30px;
+}
+.w-100{
+    
+    object-fit: cover;
+}
+@media only screen and (min-width: 1024px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+	}
+    .product-link{
+        position: relative;
+    }
+    .product-link:hover+ .subnav, .subnav:hover {
+        display: flex;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .info-extra{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 991px){
+    #cuestionario div{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .contact-section form input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        margin-bottom: 25px;
+    }
+    #cuestionario form{
+        margin-top: 20px;
+    }
+    .subnav-mini{
+        display: flex;
+        width: 100%;
+    }
+}
