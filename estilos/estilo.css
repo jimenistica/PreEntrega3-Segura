@@ -242,6 +242,10 @@ form select{
 .card h4{
     color: #3AA6B9;
 }
+.card h5{
+    color: black;
+
+}
 .card p{
     border: 1px solid #3AA6B9;
     margin-bottom: 4px;
@@ -411,24 +415,23 @@ footer img{
     width: 150px;
 }
 
-.rosa{
-    background-color: #FF9EAA;
-}
 .iconos{
     display: inline;
     height: 15px;
+    margin-right: 5px;
 }
-footer .nav-item, h5{
-    color: white;
+footer .nav-item{
+    color: #808080ff;
     text-decoration: none;
 }
 footer .nav-link {
-    color: white !important;
-}
-footer .nav-link:hover{
     color: #808080ff !important;
 }
+footer .nav-link:hover{
+    color: #FF9EAA !important;
+}
 
+/* carrusel */
 .carousel-indicators{
     list-style-type: none;
 }
