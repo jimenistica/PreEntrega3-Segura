@@ -117,6 +117,9 @@ section a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
+.boton-principal:hover{
+    transform: scale(1.1,1.1);
+}
 
 button[type="submit"]{
     background-color:#3AA6B9 ;
@@ -153,7 +156,14 @@ h2{
     height: 500px;
 }
 .los-nuestros{
-    height: 500px;
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(147,206,216,1) 47%, rgba(147,206,216,1) 52%, rgba(252,252,252,1) 100%); */
+    background: rgb(147,206,216);
+    background: radial-gradient(circle, rgba(147,206,216,1) 18%, rgba(255,255,255,1) 86%, rgba(252,252,252,1) 100%);
+}
+.los-nuestros img{
+    width: 20%;
+    margin: 30px;
 }
 
 /*CONTACTO*/
