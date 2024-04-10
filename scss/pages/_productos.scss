@@ -1,0 +1,37 @@
+.options{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid $color-celeste;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 15px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    img{
+        width: 180px;
+    }
+    p{
+    border: 1px solid $color-celeste;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    padding: 3px;
+    }
+    a{
+        &:hover{
+            border: 1px solid $color-gris;
+        }
+    }
+}

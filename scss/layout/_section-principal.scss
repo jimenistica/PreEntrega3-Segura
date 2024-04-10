@@ -1,0 +1,75 @@
+.section-principal{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-blanco;
+    div{
+        padding-left: 10vw;
+        @include responsive(phone){
+            margin-bottom: 15px;
+        }
+    }
+    @include responsive(tablet-s){
+        background-position: 65%;
+    }
+    @include responsive(phone){
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+}
+section{
+    a{
+        color: $color-blanco;
+        text-decoration: none;  
+    }
+}
+
+$imagenes-bck:(
+    index:url('../assets/images/fotos/mujer-dos-perros-jugando-parque.jpg'),
+    contact:url('..//assets/images/fotos/lindo-perrito-haciendose-pasar-persona-negocios.jpg'),
+    productos:url('../assets/images/fotos/primer-plano-jack-russell-terrier.jpg'),
+    nosotros:url('../assets/images/fotos/boxer-aleman-blanco-unico.jpg'),
+    descanso:url('../assets/images/fotos/closeup-adorable-bulldog-sleeping-pillows-garden-sunny-day.jpg'),
+    viajes:url('../assets/images/fotos/perro-lindo-maletero-coche.jpg'),
+    paseos:url('../assets/images/fotos/vista-lindo-perro-disfrutando-tiempo-naturaleza-parque.jpg'),
+    higiene:url('../assets/images/fotos/lavar-perro-mascota-casa.jpg'),
+    comederos:url('../assets/images/fotos/hermoso-perro-dalmata-comiendo.jpg'),
+    juguetes:url('../assets/images/fotos/perro-lindo-feliz-masticando-palo.jpg'),
+
+);
+@each $section, $image in $imagenes-bck{
+    .img-#{$section}{
+        background-image: $image;
+    }
+}
+
+.img-contact{
+    @include responsive(tablet-s){
+        background-position-x: 85%;
+    }
+}
+.img-juguetes{
+    @include responsive(tablet-s){
+        background-position-x: 75%;
+    }
+}
+.img-viajes{
+    @extend .img-juguetes;
+}
+.img-productos{
+    @extend .img-juguetes;
+}
+.img-paseos{
+    @include responsive(tablet-s){
+        background-position-x: 55%;
+    }
+}
+.img-higiene{
+    @extend .img-paseos;
+}

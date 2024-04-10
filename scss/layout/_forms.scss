@@ -1,0 +1,66 @@
+input[type="search"]{
+    background-color:$color-celeste;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    color: $color-blanco;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    &::placeholder{
+        color: $color-blanco;
+        text-align: center;
+        }
+}
+@mixin input-type{
+    border: none;
+    border-bottom: 1px solid $color-gris;
+    padding-block: 5px ;
+    padding-inline: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    @include responsive(tablet-l){
+        margin-bottom: 25px;
+    }
+    @include responsive(phone){
+        font-size: small;
+    }
+}
+input[type="text"]{
+    @include input-type();
+}
+input[type="email"]{
+    @include input-type();
+}
+input[type="tel"]{
+    @include input-type();
+}
+form{
+    select{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        padding: 2px;
+        border-color: $color-gris;
+        border-radius: 5px;
+        color: $color-gris;
+        @include responsive(phone){
+            font-size: small;
+        }
+    }
+    textarea{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    @include responsive(phone){
+        font-size: small;
+    }
+    }
+
+}
+label[for="motivo"]{
+    @include responsive(phone){
+        font-size: small;
+    }
+
+}

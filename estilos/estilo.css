@@ -41,7 +41,6 @@ nav img{
     display: none;
     position: absolute;
     right: 1px;  
-
 }
 .subnav li{
     padding: 0px 15px;
@@ -70,7 +69,6 @@ nav img{
     display: flex;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-large;
     color: white;
 }
 .section-principal div{
@@ -135,11 +133,7 @@ button[type="submit"]{
     margin-top: 20px;
     color: #3AA6B9;
 }
-input[type="search"]{
-    padding: 10 0;
-    width: 250px;
-   
-}
+
 input[type="search"]::placeholder{
     color: white;
     text-align: center;
@@ -150,9 +144,6 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-align: center;
-}
-.img-carrusel{
-    height: 500px;
 }
 
 /* NOSOTROS*/
@@ -457,13 +448,10 @@ footer .nav-link:hover{
     
     object-fit: cover;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
 	.navbar-expand-lg .navbar-collapse {
 		justify-content: flex-end;
 	}
-    .product-link{
-        position: relative;
-    }
     .product-link:hover+ .subnav, .subnav:hover {
         display: flex;
     }
@@ -472,7 +460,6 @@ footer .nav-link:hover{
 @media only screen and (max-width: 768px){
     .info-extra{
         flex-direction: column;
-
     }
     .contact-section img{
         display: none;

@@ -1,0 +1,20 @@
+footer{
+    .nav-item{
+        color: $color-gris;
+        text-decoration: none;
+    }
+    .nav-link{
+        color: $color-gris !important;
+        &:hover{
+            color: $color-rosa !important;
+        }
+    }
+}
+.iconos{
+    display: inline;
+    height: 15px;
+    margin-right: 5px;
+}
+.mapa{
+    width: 150px;
+}

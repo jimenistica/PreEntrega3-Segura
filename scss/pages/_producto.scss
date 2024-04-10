@@ -1,0 +1,54 @@
+.product-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    border: 1px solid $color-celeste;
+    border-radius: 5px;
+    width: 80%;
+    margin: 50px auto;
+    @include responsive(tablet-s){
+        flex-direction: column;
+     }
+}
+.product-img{
+    margin: 10px;
+    img{
+        max-width: 230px;
+        height: auto;
+    }
+}
+.img-previs{
+    display: flex;
+    justify-content: space-around;
+    img{
+        max-width: 100px;
+        height: auto;
+    }
+}
+.product-info{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    div{
+        display: flex;
+        align-items: center; 
+    }
+    img{
+        margin-left: 50px;
+    }
+    a{
+        color: $color-negro;
+        &:hover{
+            color: $color-gris;
+            cursor: pointer;
+        }
+    }
+    form{
+        input[type="number"]{
+            width: 35px;
+            color: $color-gris;
+        }
+    }
+}
