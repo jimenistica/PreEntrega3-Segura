@@ -389,7 +389,7 @@ section a {
   background-image: url("../assets/images/fotos/perro-lindo-maletero-coche.jpg");
 }
 
-.img-paseos, .img-higiene {
+.img-paseos {
   background-image: url("../assets/images/fotos/vista-lindo-perro-disfrutando-tiempo-naturaleza-parque.jpg");
 }
 
@@ -401,7 +401,7 @@ section a {
   background-image: url("../assets/images/fotos/hermoso-perro-dalmata-comiendo.jpg");
 }
 
-.img-juguetes, .img-productos, .img-viajes {
+.img-juguetes {
   background-image: url("../assets/images/fotos/perro-lindo-feliz-masticando-palo.jpg");
 }
 
@@ -412,13 +412,31 @@ section a {
 }
 
 @media only screen and (max-width: 768px) {
-  .img-juguetes, .img-productos, .img-viajes {
+  .img-juguetes {
     background-position-x: 75%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .img-paseos, .img-higiene {
+  .img-viajes {
+    background-position-x: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-productos {
+    background-position-x: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-paseos {
+    background-position-x: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-higiene {
     background-position-x: 55%;
   }
 }

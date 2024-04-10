@@ -60,10 +60,14 @@ $imagenes-bck:(
     }
 }
 .img-viajes{
-    @extend .img-juguetes;
+    @include responsive(tablet-s){
+        background-position-x: 75%;
+    }
 }
 .img-productos{
-    @extend .img-juguetes;
+    @include responsive(tablet-s){
+        background-position-x: 75%;
+    }
 }
 .img-paseos{
     @include responsive(tablet-s){
@@ -71,5 +75,7 @@ $imagenes-bck:(
     }
 }
 .img-higiene{
-    @extend .img-paseos;
+    @include responsive(tablet-s){
+        background-position-x: 55%;
+    }
 }
