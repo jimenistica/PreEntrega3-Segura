@@ -128,8 +128,8 @@ footer .nav-link:hover {
   margin-right: 5px;
 }
 
-.mapa {
-  width: 150px;
+.row {
+  align-items: center;
 }
 
 input[type=search] {
