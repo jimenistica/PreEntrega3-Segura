@@ -18,12 +18,16 @@ input[type="search"]{
     padding-inline: 5px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+    width: 49%;
     @include responsive(tablet-l){
         margin-bottom: 25px;
+        width: 100%
     }
     @include responsive(phone){
         font-size: small;
+
     }
+
 }
 input[type="text"]{
     @include input-type();

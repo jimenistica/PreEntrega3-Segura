@@ -19,10 +19,10 @@
         }
     }
 }
-#cuestionario{
+.cuestionario{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     border: 1px solid $color-celeste;
     border-radius: 10px;

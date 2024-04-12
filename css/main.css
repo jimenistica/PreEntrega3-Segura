@@ -154,10 +154,12 @@ input[type=text] {
   padding-inline: 5px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
+  width: 49%;
 }
 @media only screen and (max-width: 991px) {
   input[type=text] {
     margin-bottom: 25px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -173,10 +175,12 @@ input[type=email] {
   padding-inline: 5px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
+  width: 49%;
 }
 @media only screen and (max-width: 991px) {
   input[type=email] {
     margin-bottom: 25px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -192,10 +196,12 @@ input[type=tel] {
   padding-inline: 5px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
+  width: 49%;
 }
 @media only screen and (max-width: 991px) {
   input[type=tel] {
     margin-bottom: 25px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -466,27 +472,27 @@ section a {
   }
 }
 
-#cuestionario {
+.cuestionario {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   justify-content: center;
   border: 1px solid #3AA6B9;
   border-radius: 10px;
   padding: 5px 4vw;
 }
 @media only screen and (max-width: 768px) {
-  #cuestionario {
+  .cuestionario {
     width: 80%;
   }
 }
-#cuestionario div {
+.cuestionario div {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
 }
 @media only screen and (max-width: 991px) {
-  #cuestionario div {
+  .cuestionario div {
     display: flex;
     flex-direction: column;
     margin: 0px;
