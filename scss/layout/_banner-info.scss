@@ -1,6 +1,7 @@
 .info-extra{
     display: flex;
     margin: 30px;
+    justify-content: center;
     @include responsive(tablet-s){
         flex-direction: column;
     }
