@@ -644,6 +644,15 @@ section a {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
 }
+.vetana-emergente__content__text .credito {
+  width: 270px;
+}
+.vetana-emergente__content__text .sin-interes {
+  width: 160px;
+}
+.vetana-emergente__content__text .debito {
+  width: 100px;
+}
 
 .close {
   color: #aaa;
