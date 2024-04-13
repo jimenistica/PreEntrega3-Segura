@@ -5,11 +5,11 @@
 }
 
 @font-face {
-  font-family: "Segoe UI";
-  src: url();
+  font-family: "Poppins";
+  src: url(../../assets/fonts/Poppins/Poppins-Medium.ttf);
 }
 h1, h2, h3, h4, h5, h6, p, a, li, span {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
 }
 
 h2 {
@@ -44,7 +44,7 @@ h5 {
   border-radius: 2px;
   padding: 10px;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-weight: bold;
 }
 .boton-principal:hover {
@@ -98,7 +98,7 @@ button[type=submit] {
   padding: 15px;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: 0.8em;
 }
 .celda img {
@@ -106,6 +106,9 @@ button[type=submit] {
   margin-right: 20px;
 }
 
+footer {
+  font-size: 14px;
+}
 footer .nav-item {
   color: gray;
   text-decoration: none;
@@ -133,7 +136,7 @@ input[type=search] {
   border-radius: 2px;
   padding: 10px;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-weight: bold;
 }
 input[type=search]::placeholder {
@@ -146,7 +149,7 @@ input[type=text] {
   border-bottom: 1px solid gray;
   padding-block: 5px;
   padding-inline: 5px 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: medium;
   width: 49%;
 }
@@ -167,7 +170,7 @@ input[type=email] {
   border-bottom: 1px solid gray;
   padding-block: 5px;
   padding-inline: 5px 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: medium;
   width: 49%;
 }
@@ -188,7 +191,7 @@ input[type=tel] {
   border-bottom: 1px solid gray;
   padding-block: 5px;
   padding-inline: 5px 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: medium;
   width: 49%;
 }
@@ -205,7 +208,7 @@ input[type=tel] {
 }
 
 form select {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: medium;
   padding: 2px;
   border-color: gray;
@@ -218,7 +221,7 @@ form select {
   }
 }
 form textarea {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: medium;
   width: 100%;
   padding: 8px;
@@ -230,6 +233,9 @@ form textarea {
   }
 }
 
+label[for=motivo] {
+  font-family: "Poppins";
+}
 @media only screen and (max-width: 460px) {
   label[for=motivo] {
     font-size: small;
@@ -241,7 +247,7 @@ header {
   top: 0px;
   width: 100%;
   z-index: 1000;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   background-color: rgb(248, 249, 250);
 }
 
@@ -299,6 +305,7 @@ nav img {
   display: none;
   position: absolute;
   right: 1px;
+  font-size: 14px;
 }
 .subnav-mini a {
   color: white;
@@ -326,6 +333,7 @@ nav img {
 @media only screen and (max-width: 460px) {
   .subnav-mini a {
     font-size: 11px;
+    font-weight: light;
   }
 }
 
@@ -337,7 +345,7 @@ nav img {
   background-position: center;
   display: flex;
   align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   color: white;
 }
 .section-principal div {
@@ -447,7 +455,7 @@ section a {
   width: 90%;
   justify-content: space-evenly;
   display: flex;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: large;
   color: gray;
 }
@@ -512,7 +520,7 @@ section a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: small;
   border: 1px solid #3AA6B9;
   border-radius: 5px;
@@ -562,7 +570,7 @@ section a {
   cursor: pointer;
 }
 .product-info form input[type=number] {
-  width: 35px;
+  width: 40px;
   color: gray;
 }
 
@@ -570,7 +578,7 @@ section a {
   display: flex;
   justify-content: space-around;
   margin: 5px 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: small;
 }
 
@@ -588,7 +596,7 @@ section a {
   margin: 15px 15px;
   display: grid;
   justify-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: small;
 }
 .card img {

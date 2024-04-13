@@ -55,6 +55,7 @@ nav{
     display: none;
     position: absolute;
     right: 1px;
+    font-size: 14px;
     a{
     color: $color-blanco;
     text-decoration: none;
@@ -81,6 +82,7 @@ nav{
     a{
         @include responsive (phone){
             font-size: 11px;
+            font-weight: light;
         }
     }
 }

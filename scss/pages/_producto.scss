@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins';
     font-size: small;
     border: 1px solid $color-celeste;
     border-radius: 5px;
@@ -47,7 +47,7 @@
     }
     form{
         input[type="number"]{
-            width: 35px;
+            width: 40px;
             color: $color-gris;
         }
     }

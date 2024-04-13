@@ -4,7 +4,7 @@ input[type="search"]{
     border-radius: 2px;
     padding: 10px;
     color: $color-blanco;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins';
     font-weight: bold;
     &::placeholder{
         color: $color-blanco;
@@ -16,7 +16,7 @@ input[type="search"]{
     border-bottom: 1px solid $color-gris;
     padding-block: 5px ;
     padding-inline: 5px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins';
     font-size: medium;
     width: 49%;
     @include responsive(tablet-l){
@@ -40,7 +40,7 @@ input[type="tel"]{
 }
 form{
     select{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Poppins';
         font-size: medium;
         padding: 2px;
         border-color: $color-gris;
@@ -51,7 +51,7 @@ form{
         }
     }
     textarea{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Poppins';
     font-size: medium;
     width: 100%;
     padding: 8px;
@@ -63,6 +63,7 @@ form{
 
 }
 label[for="motivo"]{
+    font-family: 'Poppins';
     @include responsive(phone){
         font-size: small;
     }
