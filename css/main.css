@@ -217,7 +217,7 @@ form select {
 }
 @media only screen and (max-width: 460px) {
   form select {
-    font-size: small;
+    font-size: x-small;
   }
 }
 form textarea {
@@ -564,6 +564,7 @@ section a {
 .product-info div {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .product-info img {
   margin-left: 50px;
@@ -653,14 +654,17 @@ section a {
 .vetana-emergente__content__text .credito {
   width: 70%;
   max-width: 300px;
+  margin-left: 0;
 }
 .vetana-emergente__content__text .sin-interes {
   width: 50%;
   max-width: 170px;
+  margin-left: 0;
 }
 .vetana-emergente__content__text .debito {
   width: 30%;
   max-width: 120px;
+  margin-left: 0;
 }
 
 .close {

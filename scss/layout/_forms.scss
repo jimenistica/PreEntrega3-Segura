@@ -47,7 +47,7 @@ form{
         border-radius: 5px;
         color: $color-gris;
         @include responsive(phone){
-            font-size: small;
+            font-size: x-small;
         }
     }
     textarea{
