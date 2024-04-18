@@ -10,9 +10,16 @@
     img{
         width: 20%;
         margin: 2vw;
-        @include responsive(tablet-s){
+        @include responsive(tablet-l){
             width:25%;  
         }
+        @include responsive(tablet-s){
+            width:40%;  
+        }
+        @include responsive(phone){
+            width:70%;  
+        }
+
         
     }
 }

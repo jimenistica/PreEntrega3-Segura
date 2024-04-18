@@ -516,9 +516,19 @@ section a {
   width: 20%;
   margin: 2vw;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .los-nuestros img {
     width: 25%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .los-nuestros img {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .los-nuestros img {
+    width: 70%;
   }
 }
 
